@@ -1,0 +1,234 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User has to login the myntra page using invalid mobile number",
+        "description": "",
+        "id": "to-validate-the-login-functonilty-of-myntra-application;user-has-to-login-the-myntra-page-using-invalid-mobile-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3053899100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to launch the browser and maximize the window",
+            "match": {
+              "location": "CucumberTest.userHasToLaunchTheBrowserAndMaximizeTheWindow()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24502717300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to launch the url",
+            "match": {
+              "location": "CucumberTest.userHasToLaunchTheUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231135900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User hit the profile button",
+            "match": {
+              "location": "CucumberTest.userHitTheProfileButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5903500900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click the login button",
+            "match": {
+              "location": "CucumberTest.toClickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165537800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User has to pass the mobile number in mobile field",
+            "match": {
+              "location": "CucumberTest.userHasToPassTheMobileNumberInMobileField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154476200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User has to click the continue button",
+            "match": {
+              "location": "CucumberTest.userHasToClickTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1233180600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "CucumberTest.closeTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the login functonilty of myntra application",
+    "description": "",
+    "id": "to-validate-the-login-functonilty-of-myntra-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@Feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To login to the icici applicaton",
+        "description": "",
+        "id": "to-validate-login-functiolity-of-icici-login-page;to-login-to-the-icici-applicaton",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1440478600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "IciciLogin.toLaunchTheBrowserAndMaximizeTheWindow()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5046791200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the url",
+            "match": {
+              "location": "IciciLogin.toLaunchTheUrl()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8137104200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click the loggin button",
+            "match": {
+              "location": "IciciLogin.toClickTheLogginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3154835700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass the user id",
+            "match": {
+              "location": "IciciLogin.toPassTheUserId()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105995100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass the password",
+            "match": {
+              "location": "IciciLogin.toPassThePassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 512067600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To close the browser",
+            "match": {
+              "location": "IciciLogin.toCloseTheBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature1"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functiolity of icici login page",
+    "description": "",
+    "id": "to-validate-login-functiolity-of-icici-login-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/icici.feature",
+    "tags": [
+      {
+        "name": "@Feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

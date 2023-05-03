@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="29.072926">
+    <testcase classname="To Validate the login functonilty of myntra application" name="User has to login the myntra page using invalid mobile number" time="13.887561">
+        <system-out><![CDATA[Given User has to launch the browser and maximize the window................passed
+When User has to launch the url.............................................passed
+And User hit the profile button.............................................passed
+And To click the login button...............................................passed
+And User has to pass the mobile number in mobile field......................passed
+And User has to click the continue button...................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate login functiolity of icici login page" name="To login to the icici applicaton" time="15.185365">
+        <system-out><![CDATA[Given To launch the browser and maximize the window.........................passed
+When To launch the url......................................................passed
+And To click the loggin button..............................................passed
+And To pass the user id.....................................................passed
+And To pass the password....................................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
